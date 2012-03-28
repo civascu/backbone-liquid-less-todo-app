@@ -53,7 +53,7 @@ function(namespace, $, Backbone, Example) {
     app.router = new Router();
 
     // Trigger the initial route and enable HTML5 History API support
-    Backbone.history.start({ pushState: true });
+    Backbone.history.start({ pushState: false });
   });
 
   // All navigation that is relative should be passed through the navigate
